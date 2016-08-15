@@ -1,0 +1,98 @@
+html{
+
+}
+
+body {
+margin: 0;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	background-color: lightgray;
+	height: 50px;
+}
+
+.header a {
+	padding-right: 10px;
+}
+
+nav {
+	position: relative;
+	text-align: right;
+	padding-top: 15px;
+  	padding-right: 20px;
+	font-size: 16px;
+}
+
+.nav_title {
+	position: absolute;
+	left: 20px;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.search {
+	position: fixed;
+	Top: 100px;
+	Left: 60px;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.search input {
+	width: 300px;
+	font-size: 18px;
+	padding-top: 20px;  /* why doesn't this make the field taller? */
+}
+
+.search button {
+	font-size: 13px;
+}
+
+.nav_results {
+	position: fixed;
+	Top: 180px;
+	Left: 60px;
+	font-size: 0;
+}
+
+.nav_results div {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	height: 25px;
+	padding-top: 5px;
+	font-size: 16px;
+	border: 1px solid lightgray;
+}
+
+.prev_next {
+	width: 60px;
+}
+
+.results_count {
+	width: 130px;
+}
+
+.listings {
+	position: fixed;
+	Top: 240px;
+	Left: 60px;
+}
+
+.bold-blue {
+	padding-right: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: Blue;
+}
+
+.lightgray {
+	color: lightgray;
+	font-size: 12px;
+	font-weight: normal;
+	padding-right: 8px;
+}
